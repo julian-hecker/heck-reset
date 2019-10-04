@@ -12,6 +12,9 @@ Heck Reset solves points 1 and 2 with a modified version of [Normalize.css](http
 
 To solve point 3, it uses customizable `!default` SCSS variables.
 
+## Demo / Testing
+Check out the default demo [here](test.html) \(Test HTML page from jkorpela.fi\)
+
 ## Special Thanks
 - [bitsofcode](https://bitsofco.de/a-look-at-css-resets-in-2018/), the article that inspired this project
-- [jkorpela.fi](http://jkorpela.fi/www/testel.html), the HTML doc that shows how all the elements are displayed. This is instrumental to testing the effects of a CSS reset.
+- [jkorpela.fi](http://jkorpela.fi/www/testel.html), the test HTML document that shows how all elements are displayed.
