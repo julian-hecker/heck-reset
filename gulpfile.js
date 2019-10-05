@@ -9,8 +9,7 @@ const gulpSass = require('gulp-sass');
 
 const paths = {
   scss: {
-    // src: 'src/scss/*.+(scss|sass)',
-    src: 'test.scss',
+    src: 'src/scss/*.+(scss|sass)',
     dest: 'dist/css'
   },
 };

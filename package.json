@@ -4,7 +4,8 @@
   "description": "A customizable reset that makes it easy to choose your own opinionated styles!",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
   },
   "author": "Julian Hecker",
   "license": "MIT",
@@ -15,5 +16,14 @@
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julian-hecker/heck-reset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julian-hecker/heck-reset/issues"
+  },
+  "homepage": "https://julian-hecker.github.io/heck-reset/"
 }
