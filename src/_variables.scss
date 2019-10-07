@@ -1,0 +1,37 @@
+// === Variables === //
+
+// Use SCSS Maps to contain variable categories?
+// No, because it makes it much more difficult to override `!default` values. 
+// One would have to overwrite every single value in the map.
+
+// === Theme Variables === //
+$hr-color-primary: red               !default;
+$hr-color-secondary: green           !default;
+$hr-color-tertiary: blue             !default;
+
+// === Element Variables === //
+
+$hr-document-color: initial            !default;
+
+
+$hr-html-lineHeight: 1.50              !default;
+$hr-html-scrollBehavior: smooth        !default; // [smooth | auto]
+
+
+$hr-element-marginSize: 1rem           !default;
+$hr-element-marginDirection: bottom    !default; // [top | bottom]
+
+
+
+
+
+$hr-link-color: inherit                !default;
+$hr-link-color-hover: inherit          !default;
+$hr-link-color-active: inherit         !default;
+$hr-link-decoration: underline         !default;
+$hr-link-decoration-hover: none        !default;
+$hr-link-decoration-active: inherit    !default;
+
+
+
+

@@ -1,0 +1,44 @@
+/*!
+ * Heck Reset by Julian Hecker
+ * A customizable reset that makes it easy to choose your own opinionated styles!
+ * https://github.com/julian-hecker/heck-reset/
+ */
+
+
+@import 'variables';
+@import 'sanitize';
+
+// === Heck Reset Defaults === //
+html {
+  line-height: $hr-html-lineHeight;
+  scroll-behavior: $hr-html-scrollBehavior;
+}
+
+
+// === Heck Reset | Element Styles === //
+h1, h2, h3, h4, h5, h6, p, blockquote {
+  margin: 0;
+  @if $hr-element-marginSize > 0 {
+    margin-#{$hr-element-marginDirection}: $hr-element-marginSize;
+  }
+}
+
+blockquote {
+  margin: $hr-element-marginSize 0 $hr-element-marginSize $hr-element-marginSize;
+}
+
+
+a {
+  color: $hr-link-color;
+  text-decoration: $hr-link-decoration;
+}
+
+a:hover {
+  color: $hr-link-color-hover;
+  text-decoration: $hr-link-decoration-hover;
+}
+
+a:active {
+  color: $hr-link-color-active;
+  text-decoration: $hr-link-decoration-active;
+}
